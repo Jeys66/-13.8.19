@@ -27,7 +27,7 @@ for i in range(ticket):
         except ValueError:
             print('Введите целое число')
 if ticket > 3:
-    price = price - (price*10 / 100)
+    price = price - (price*10 / 100) # Вычисление скидки
     print(f'Сумма к оплате {price} руб. с учетом 10%-ой скидки за регистрацию больше 3 человек')
 else:
     print(f'Сумма к оплате {price} руб.')
